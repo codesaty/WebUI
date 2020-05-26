@@ -1,0 +1,145 @@
+body {
+	padding: 0px;
+	margin: 0px;
+}
+
+#introduction {
+	background-image: url(img/background1.jpeg);
+	background-attachment: fixed;
+	background-size: cover;
+	background-repeat: no-repeat;
+	min-height: 700px;
+}
+
+#introduction nav ul li a:hover {
+	border-bottom: 1px solid white;
+}
+
+#introduction .navbar-brand {
+	font-family: 'Balsamiq Sans', cursive;
+	letter-spacing: 2px;
+
+}
+
+.btn-outline-rebeccapurple {
+	background-color: rebeccapurple;
+	border-radius: 50px;
+
+}
+
+.btn-outline-warning {
+	border-radius: 50px;
+}
+
+.btn-outline-light {
+	border-radius: 50px;
+}
+
+.btn-outline-light:hover {
+	color: black !important;
+}
+
+#description {
+	background-image: url(img/background-2.jpeg);
+	background-attachment: fixed;
+	background-size: cover;
+	background-repeat: no-repeat;
+	min-height: 610px;
+}
+
+#description p {
+	font-family: 'Balsamiq Sans', cursive;
+}
+
+#description small {
+	border-left: 5px solid black;
+	font-size: 15px;
+}
+
+#features {
+	background-image: url(img/features-background.jpeg);
+	background-attachment: fixed;
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+#description img {
+
+	transition: all .5s ease-in-out;
+	cursor: pointer;
+}
+
+#description img:hover {
+	transform: translate(50px, 100px);
+	-webkit-transform: translate(50px, 100px);
+}
+
+#slider {
+	background-image: url(/img/sback.jpeg);
+	background-size: cover;
+}
+
+#backgroundVideo {
+	border-radius: 50px;
+
+
+}
+
+#reference {
+	background-image: url(img/back3.jpeg);
+	background-attachment: fixed;
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+#whoweare {
+	background-color: black;
+}
+
+#whoweare img {
+	border-radius: 50px;
+}
+
+#whoweare small {
+	border: 2px solid white;
+	padding: 10px;
+}
+
+#whoweare small b:hover {
+	color: white;
+}
+
+#whoweare .items {
+	border-left: 5px solid rebeccapurple;
+	margin-left: 1rem;
+
+}
+
+#team small {
+	border-bottom: 1px solid gray;
+	padding-bottom: 3px;
+}
+
+#team h4 {
+	border: 2px solid black;
+	border-radius: 5px;
+}
+
+#team h4:hover {
+	color: blueviolet;
+}
+
+#team .card {
+	border-radius: 20px;
+}
+
+#theend {
+	border: 2px solid blueviolet;
+	border-radius: 50px;
+	background-color: black;
+
+}
+
+#sidetext span {
+	font-size: 20px;
+}
